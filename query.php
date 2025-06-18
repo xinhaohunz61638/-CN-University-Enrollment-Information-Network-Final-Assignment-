@@ -128,13 +128,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <div class="nav-tabs">
             <a href="index.php">首页</a>
-            <a href="admission-types.php">招生类型</a>
-            <a href="index.php">报考指南</a>
-            <a href="index.php">专业介绍</a>
+            <a href="query.php">招生类型</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=90a12e6756cb4f4ebc4d251a58d60245">报考指南</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=faa806f9b8af4d80bbb8db81b227ce8c">专业介绍</a>
             <a href="query.php">录取查询</a>
-            <a href="contact.php">招生咨询</a>
-            <a href="index.php">资料下载</a>
-        </div>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">招生咨询</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">资料下载</a>
+    </div>
     <div class="query-form">
         <h2>录取查询</h2>
         <form method="post">
@@ -158,9 +158,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="footer">
         <img class="logo" src="logo.png" alt="Logo">
         <div class="links">
-            <a href="#">关于我们</a>
-            <a href="#">联系方式</a>
-            <a href="#">隐私政策</a>
+            <a href="https://www.ldpoly.edu.cn/">罗定职业技术学院官网</a>
+            <a href="#">学号23303520119</a>
+            <a href="#">姓名刘宇虓</a>
         </div>
         <img class="qrcode" src="二维码.jpg" alt="二维码">
     </div>
