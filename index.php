@@ -194,12 +194,12 @@
     <img class="banner" src="banner.jpg" alt="Banner">
         <div class="nav-tabs">
             <a href="index.php">首页</a>
-            <a href="admission-types.php">招生类型</a>
-            <a href="index.php">报考指南</a>
-            <a href="index.php">专业介绍</a>
+            <a href="query.php">招生类型</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=90a12e6756cb4f4ebc4d251a58d60245">报考指南</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=faa806f9b8af4d80bbb8db81b227ce8c">专业介绍</a>
             <a href="query.php">录取查询</a>
-            <a href="contact.php">招生咨询</a>
-            <a href="index.php">资料下载</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">招生咨询</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">资料下载</a>
         </div>
         <div class="content">
             <!-- 轮播图部分 -->
@@ -298,19 +298,19 @@ $conn->close();
                 <div class="section-title">招生服务</div>
                 <div class="admission-services">
                     <div class="admission-service-container">
-                        <a href="http://external-site.com" target="_blank"><img class="admission-service" src="招生简章.jpg" alt="招生简章"></a>
+                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=fa263dc0423b44fcae5fd5de52140533" target="_blank"><img class="admission-service" src="招生简章.jpg" alt="招生简章"></a>
                         <div class="admission-service-text">招生简章</div>
                     </div>
                     <div class="admission-service-container">
-                        <a href="http://external-site.com" target="_blank"><img class="admission-service" src="招生章程.jpg" alt="招生章程"></a>
+                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=f383e9eab092499bb3a7096ad4ee8089" target="_blank"><img class="admission-service" src="招生章程.jpg" alt="招生章程"></a>
                         <div class="admission-service-text">招生章程</div>
                     </div>
                     <div class="admission-service-container">
-                        <a href="http://external-site.com" target="_blank"><img class="admission-service" src="招生计划.jpg" alt="招生计划"></a>
+                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=d5252ecef49349639516ee2c89d25438" target="_blank"><img class="admission-service" src="招生计划.jpg" alt="招生计划"></a>
                         <div class="admission-service-text">招生计划</div>
                     </div>
                     <div class="admission-service-container">
-                        <a href="http://external-site.com" target="_blank"><img class="admission-service" src="网上公示.jpg" alt="网上公示"></a>
+                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=1376517f9a2446449a6d8d0666e20c00" target="_blank"><img class="admission-service" src="网上公示.jpg" alt="网上公示"></a>
                         <div class="admission-service-text">网上公示</div>
                     </div>
                 </div>
@@ -321,9 +321,9 @@ $conn->close();
             <img src="logo.png" alt="Logo" style="width: 100%; height: 100%;">
         </div>
         <div class="links">
-            <a href="#">链接1</a>
-            <a href="#">链接2</a>
-            <a href="#">链接3</a>
+            <a href="https://www.ldpoly.edu.cn/">罗定职业技术学院官网</a>
+            <a href="#">学号23303520119</a>
+            <a href="#">姓名刘宇虓</a>
         </div>
         <div class="qrcode">
             <img src="二维码.jpg" alt="二维码" style="width: 100%; height: 100%;">

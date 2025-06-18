@@ -45,18 +45,15 @@ $conn->close();
     <div class="header">
         <h1>招生信息网</h1>
     </div>
-    <div class="banner">
-        <img src="banner.jpg" alt="招生banner" class="banner-img">
-    </div>
-    <div class="nav-tabs">
-        <a href="index.php">首页</a>
-        <a href="admission-types.php">招生类型</a>
-        <a href="guide.php">报考指南</a>
-        <a href="majors.php">专业介绍</a>
-        <a href="query.php">录取查询</a>
-        <a href="contact.php">招生咨询</a>
-        <a href="downloads.php">资料下载</a>
-    </div>
+        <div class="nav-tabs">
+            <a href="index.php">首页</a>
+            <a href="query.php">招生类型</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=90a12e6756cb4f4ebc4d251a58d60245">报考指南</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=faa806f9b8af4d80bbb8db81b227ce8c">专业介绍</a>
+            <a href="query.php">录取查询</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">招生咨询</a>
+            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">资料下载</a>
+        </div>
     <div class="container">
         <div class="news-detail">
             <h1 class="news-title"><?php echo $title; ?></h1>
@@ -72,9 +69,9 @@ $conn->close();
             <img src="logo.png" alt="Logo" class="logo-img">
         </div>
         <div class="links">
-            <a href="#">链接1</a>
-            <a href="#">链接2</a>
-            <a href="#">链接3</a>
+            <a href="https://www.ldpoly.edu.cn/">罗定职业技术学院官网</a>
+            <a href="#">学号23303520119</a>
+            <a href="#">姓名刘宇虓</a>
         </div>
         <div class="qrcode">
             <img src="二维码.jpg" alt="二维码" class="qrcode-img">
