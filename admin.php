@@ -199,6 +199,7 @@ $consults_result = $conn->query($consults_sql);
             <div class="tab active" onclick="showTab('news')">新闻管理</div>
             <div class="tab" onclick="showTab('results')">录取结果管理</div>
             <div class="tab" onclick="showTab('consults')">咨询管理</div>
+            <div class="tab"><a href="index.php" style="color: inherit; text-decoration: none;">返回首页</a></div>
         </div>
         
         <!-- 新闻管理 -->
