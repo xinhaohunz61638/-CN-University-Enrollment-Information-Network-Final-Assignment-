@@ -42,27 +42,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         .header {
             background-color: #005EBE;
-            color: white;
-            padding: 20px;
-            text-align: center;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
         }
         .nav-tabs {
-            display: flex;
-            justify-content: center;
-            background-color: #f8f9fa;
-            padding: 10px 0;
-            border-bottom: 1px solid #ddd;
-        }
-        .nav-tabs a {
-            margin: 0 15px;
-            color: #333;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-        .nav-tabs a:hover {
-            color: #005EBE;
-            text-decoration: underline;
-        }
+             display: flex;
+             justify-content: center;
+             background-color:rgb(26, 71, 116);
+             padding: 10px 0;
+         }
+         .nav-tabs a {
+             color: white;
+             text-decoration: none;
+             padding: 10px 20px;
+             margin: 0 5px;
+         }
+         .nav-tabs a:hover {
+             background-color: #005EBE;
+         }
         .query-form {
             max-width: 500px;
             margin: 30px auto;
@@ -132,9 +131,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=90a12e6756cb4f4ebc4d251a58d60245">报考指南</a>
             <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=faa806f9b8af4d80bbb8db81b227ce8c">专业介绍</a>
             <a href="query.php">录取查询</a>
-            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">招生咨询</a>
+            <a href="consult.php">招生咨询</a>
             <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">资料下载</a>
-    </div>
+        </div>
     <div class="query-form">
         <h2>录取查询</h2>
         <form method="post">

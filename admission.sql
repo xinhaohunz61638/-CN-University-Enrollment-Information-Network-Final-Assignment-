@@ -92,6 +92,28 @@ CREATE TABLE IF NOT EXISTS `news` (
 -- 转存表中的数据 `news`
 --
 
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `consultations`
+--
+
+DROP TABLE IF EXISTS `consultations`;
+CREATE TABLE IF NOT EXISTS `consultations` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL COMMENT '咨询人姓名',
+  `phone` varchar(20) NOT NULL COMMENT '联系电话',
+  `content` text NOT NULL COMMENT '咨询内容',
+  `reply` text COMMENT '回复内容',
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `replied_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- 转存表中的数据 `news`
+--
+
 INSERT INTO `news` (`id`, `title`, `content`, `publish_date`, `created_at`) VALUES
 (1, '123123', '123123123', '2025-06-17', '2025-06-17 04:09:17'),
 (2, '2232223', '232323232323', '2025-06-17', '2025-06-17 04:09:34'),

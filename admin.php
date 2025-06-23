@@ -87,6 +87,25 @@ if (isset($_GET['action'])) {
             $conn->query($sql);
             header("Location: admin.php");
             break;
+            
+        // 咨询管理功能
+        case 'reply_consult':
+            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                $id = $_POST['id'];
+                $reply = $_POST['reply'];
+                
+                $sql = "UPDATE consultations SET reply='$reply', replied_at=NOW() WHERE id=$id";
+                $conn->query($sql);
+                header("Location: admin.php");
+            }
+            break;
+            
+        case 'delete_consult':
+            $id = $_GET['id'];
+            $sql = "DELETE FROM consultations WHERE id=$id";
+            $conn->query($sql);
+            header("Location: admin.php");
+            break;
     }
 }
 
@@ -97,6 +116,10 @@ $news_result = $conn->query($news_sql);
 // 获取录取结果列表
 $results_sql = "SELECT * FROM admission_results";
 $results_result = $conn->query($results_sql);
+
+// 获取咨询列表
+$consults_sql = "SELECT * FROM consultations ORDER BY created_at DESC";
+$consults_result = $conn->query($consults_sql);
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -175,6 +198,7 @@ $results_result = $conn->query($results_sql);
         <div class="tabs">
             <div class="tab active" onclick="showTab('news')">新闻管理</div>
             <div class="tab" onclick="showTab('results')">录取结果管理</div>
+            <div class="tab" onclick="showTab('consults')">咨询管理</div>
         </div>
         
         <!-- 新闻管理 -->
@@ -276,6 +300,52 @@ $results_result = $conn->query($results_sql);
                 </form>
             </div>
         </div>
+        
+        <!-- 咨询管理 -->
+        <div id="consults" class="tab-content">
+            <h2>咨询列表</h2>
+            
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>姓名</th>
+                    <th>电话</th>
+                    <th>咨询时间</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                <?php while($row = $consults_result->fetch_assoc()): ?>
+                <tr>
+                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['name']; ?></td>
+                    <td><?php echo $row['phone']; ?></td>
+                    <td><?php echo $row['created_at']; ?></td>
+                    <td><?php echo empty($row['reply']) ? '未回复' : '已回复'; ?></td>
+                    <td>
+                        <button onclick="showReplyForm(<?php echo $row['id']; ?>, '<?php echo addslashes($row['content']); ?>', '<?php echo isset($row['reply']) ? addslashes($row['reply']) : ''; ?>')">回复</button>
+                        <button onclick="if(confirm('确定删除?')) window.location='admin.php?action=delete_consult&id=<?php echo $row['id']; ?>'">删除</button>
+                    </td>
+                </tr>
+                <?php endwhile; ?>
+            </table>
+            
+            <!-- 回复表单 -->
+            <div id="consult-form" style="display: none;">
+                <h3>回复咨询</h3>
+                <form method="post" action="admin.php?action=reply_consult">
+                    <input type="hidden" id="consult_id" name="id">
+                    <div class="form-group">
+                        <label>咨询内容</label>
+                        <div id="consult-content" style="padding: 10px; background: #f5f5f5; margin-bottom: 15px;"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reply_content">回复内容</label>
+                        <textarea id="reply_content" name="reply" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">提交回复</button>
+                </form>
+            </div>
+        </div>
     </div>
     
     <script>
@@ -340,6 +410,15 @@ $results_result = $conn->query($results_sql);
         
         function hideResultForm() {
             document.getElementById('result-form').style.display = 'none';
+        }
+        
+        // 咨询回复表单函数
+        function showReplyForm(id, content, reply) {
+            document.getElementById('consult_id').value = id;
+            document.getElementById('consult-content').innerHTML = content;
+            document.getElementById('reply_content').value = reply;
+            document.getElementById('consult-form').style.display = 'block';
+            window.scrollTo(0, document.body.scrollHeight);
         }
     </script>
 </body>
