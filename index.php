@@ -276,19 +276,19 @@ $conn->close();
                 <div class="section-title">招生类型</div>
                 <div class="admission-types">
                     <div class="admission-type-container">
-                    <a href="admission-query.php"><img class="admission-type" src="gk.jpg" alt="高考招生"></a>
+                    <a href="query.php"><img class="admission-type" src="gk.jpg" alt="高考招生"></a>
                     <div class="admission-type-text">高考招生</div>
                 </div>
                 <div class="admission-type-container">
-                    <a href="admission-query.php"><img class="admission-type" src="xk.jpg" alt="校考招生"></a>
+                    <a href="query.php"><img class="admission-type" src="xk.jpg" alt="校考招生"></a>
                     <div class="admission-type-text">校考招生</div>
                 </div>
                 <div class="admission-type-container">
-                    <a href="admission-query.php"><img class="admission-type" src="3+zs.jpg" alt="3+证书"></a>
+                    <a href="query.php"><img class="admission-type" src="3+zs.jpg" alt="3+证书"></a>
                     <div class="admission-type-text">3+证书</div>
                 </div>
                 <div class="admission-type-container">
-                    <a href="admission-query.php"><img class="admission-type" src="zzzs.jpg" alt="自主招生"></a>
+                    <a href="query.php"><img class="admission-type" src="zzzs.jpg" alt="自主招生"></a>
                     <div class="admission-type-text">自主招生</div>
                 </div>
                 </div>
@@ -299,19 +299,19 @@ $conn->close();
                 <div class="section-title">招生服务</div>
                 <div class="admission-services">
                     <div class="admission-service-container">
-                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=fa263dc0423b44fcae5fd5de52140533" target="_blank"><img class="admission-service" src="招生简章.jpg" alt="招生简章"></a>
+                        <a href="news.php" target="_blank"><img class="admission-service" src="招生简章.jpg" alt="招生简章"></a>
                         <div class="admission-service-text">招生简章</div>
                     </div>
                     <div class="admission-service-container">
-                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=f383e9eab092499bb3a7096ad4ee8089" target="_blank"><img class="admission-service" src="招生章程.jpg" alt="招生章程"></a>
+                        <a href="news.php" target="_blank"><img class="admission-service" src="招生章程.jpg" alt="招生章程"></a>
                         <div class="admission-service-text">招生章程</div>
                     </div>
                     <div class="admission-service-container">
-                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=d5252ecef49349639516ee2c89d25438" target="_blank"><img class="admission-service" src="招生计划.jpg" alt="招生计划"></a>
+                        <a href="news.php" target="_blank"><img class="admission-service" src="招生计划.jpg" alt="招生计划"></a>
                         <div class="admission-service-text">招生计划</div>
                     </div>
                     <div class="admission-service-container">
-                        <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=1376517f9a2446449a6d8d0666e20c00" target="_blank"><img class="admission-service" src="网上公示.jpg" alt="网上公示"></a>
+                        <a href="news.php" target="_blank"><img class="admission-service" src="网上公示.jpg" alt="网上公示"></a>
                         <div class="admission-service-text">网上公示</div>
                     </div>
                 </div>
