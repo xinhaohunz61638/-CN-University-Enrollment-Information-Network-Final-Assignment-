@@ -196,11 +196,11 @@
         <div class="nav-tabs">
             <a href="index.php">首页</a>
             <a href="query.php">招生类型</a>
-            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=90a12e6756cb4f4ebc4d251a58d60245">报考指南</a>
-            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=faa806f9b8af4d80bbb8db81b227ce8c">专业介绍</a>
+            <a href="网址放这里">报考指南</a>
+            <a href="网址放这里">专业介绍</a>
             <a href="query.php">录取查询</a>
             <a href="consult.php">招生咨询</a>
-            <a href="https://zs.ldpoly.edu.cn/home/index/ListPage.html?catalogueId=9353c230ece24af98ebcfb17c6239f6b">资料下载</a>
+            <a href="网址放这里">资料下载</a>
         </div>
         <div class="content">
             <!-- 轮播图部分 -->
@@ -322,10 +322,10 @@ $conn->close();
             <img src="logo.png" alt="Logo" style="width: 100%; height: 100%;">
         </div>
         <div class="links">
-            <a href="https://www.ldpoly.edu.cn/">罗定职业技术学院官网</a>
-            <a href="#">学号：23303520119</a>
-            <a href="#">电信服务与管理1班</a>
-            <a href="admin.php">姓名：刘宇虓</a>
+            <a href="https://www.ldpoly.edu.cn/">职业技术学院官网</a>
+            <a href="#">学号</a>
+            <a href="#">1班</a>
+            <a href="admin.php">姓名</a>
         </div>
         <div class="qrcode">
             <img src="二维码.jpg" alt="二维码" style="width: 100%; height: 100%;">
