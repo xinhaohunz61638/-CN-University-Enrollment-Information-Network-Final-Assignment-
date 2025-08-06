@@ -1,8 +1,7 @@
-# 招生咨询系统
+# 招生咨询系统（win系统限定）
 
-# 记得上传作业时把这个文件删掉！！！
-# 记得上传作业时把这个文件删掉！！！
-# 记得上传作业时把这个文件删掉！！！
+# 记得上传作业时把这个文件删掉！！！记得上传作业时把这个文件删掉！！！记得上传作业时把这个文件删掉！！！记得上传作业时把这个文件删掉！！！记得上传作业时把这个文件删掉！！！
+
 ## 写在前面：
 - 本项目仅供学习参考 不建议直接使用本项目的代码
 - 本项目仅为期末赶工后成果 略显简陋 可自行添加样式及功能
@@ -87,7 +86,7 @@ Apache/2.4.62 (Win64) PHP/8.3.14 mod_fcgid/2.3.10-dev - Apache 端口：80
 ## wamp 
 1. 下载
 - 通过网盘分享的文件：wamp安装
-链接: https://pan.baidu.com/s/12ZMZb3FQJtAaumoGHDnOaQ?pwd=u8yj 提取码: u8yj
+链接: [百度网盘链接，一定要两个文件一起下](https://pan.baidu.com/s/12ZMZb3FQJtAaumoGHDnOaQ?pwd=u8yj "https://pan.baidu.com/s/12ZMZb3FQJtAaumoGHDnOaQ?pwd=u8yj") 提取码: u8yj
 2. 安装
 - 双击 vcredist_x64.exe(无脑下一步和安装)
 - 安装完成后双击 wampserver3.3.7_x64.exe
@@ -100,5 +99,12 @@ Apache/2.4.62 (Win64) PHP/8.3.14 mod_fcgid/2.3.10-dev - Apache 端口：80
 - 出现文件选择界面 ”取消“
 - 最后安装 ”Next“
 - 安装完成后点击“Finish”
-
+3.修改中文
+- 双击运行桌面wamp图标
+- 等待读条完成
+- 右键点击任务栏wamp图标
+- 鼠标悬停在"Language"上
+- 移动至出现的新菜单的"chinese"
+- 点击"chinese"
+- 中文修改完成
 ___
