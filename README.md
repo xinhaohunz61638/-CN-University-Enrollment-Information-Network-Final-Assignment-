@@ -84,4 +84,21 @@ Apache/2.4.62 (Win64) PHP/8.3.14 mod_fcgid/2.3.10-dev - Apache 端口：80
 - MySQL 版本：9.1.0 - MySQL 端口：3306 - 默认DBMS
 - MariaDB 版本：11.5.2 - MariaDB 端口：3307
 
+## wamp 
+1. 下载
+- 通过网盘分享的文件：wamp安装
+链接: https://pan.baidu.com/s/12ZMZb3FQJtAaumoGHDnOaQ?pwd=u8yj 提取码: u8yj
+2. 安装
+- 双击 vcredist_x64.exe(无脑下一步和安装)
+- 安装完成后双击 wampserver3.3.7_x64.exe
+- OK(后续可由英文修改至中文)
+- “I accept...” 同意协议
+- 滚动新页面到底部后按”Next“
+- 选择安装目录 （建议默认）
+- 等待安装
+- 出现弹窗”Setup" 选择 ”否“两次
+- 出现文件选择界面 ”取消“
+- 最后安装 ”Next“
+- 安装完成后点击“Finish”
+
 ___
